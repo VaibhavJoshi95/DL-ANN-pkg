@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 PKG_NAME = "DLANN_pkg"
 USER_NAME = "VaibhavJoshi95"
-PROJECT_NAME = "DLANN-pkg"
+PROJECT_NAME = "DL-ANN-pkg"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
