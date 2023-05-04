@@ -3,13 +3,13 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-PKG_NAME = "DLANN_pkg"
+PKG_NAME = "DL-ANN-pkg"
 USER_NAME = "VaibhavJoshi95"
 PROJECT_NAME = "DL-ANN-pkg"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author=USER_NAME,
     author_email="vaibhavgjoshi95@gmail.com",
     description="A small package for perceptron",
