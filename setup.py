@@ -4,12 +4,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 PKG_NAME = "DL_ANN_pkg"
-USER_NAME = "Vaibhav Joshi"
+USER_NAME = "VaibhavJoshi95"
 PROJECT_NAME = "DL_ANN-pkg"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.1",
     author=USER_NAME,
     author_email="vaibhavgjoshi95@gmail.com",
     description="A small package for perceptron",
@@ -26,10 +26,11 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.6",
+    python_requires=">=3.9",
     install_requires=[
-        "numpy==1.21.4",
-        "pandas==1.3.4",
-        "joblib==1.1.0"
+        "numpy==1.24.3",
+        "pandas==2.0.1",
+        "joblib==1.2.0",
+        "matplotlib==3.7.1"
     ]
 )
